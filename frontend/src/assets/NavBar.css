@@ -1,0 +1,61 @@
+.navbar{
+    background-color: #0f172a;
+    position: fixed;
+    top:0;
+    left:0;
+    width: 250px;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+}
+.navbar__top-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    margin:20px 0px;
+}
+
+.navbar__profile-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.navbar__profile-container .img-container{
+    width:50px;
+    height:50px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar__notification-container{
+    width:50px;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.navbar__index ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.0rem;
+    width:100%;
+    box-sizing: border-box;
+    padding:0;
+    text-align: left; /* Center text horizontally */
+}
+.navbar__index ul li{
+    width:100%;
+    margin:20px 0px;
+    
+}
+
